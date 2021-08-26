@@ -1,0 +1,151 @@
+
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+}
+
+.navbar{
+    margin: auto;
+    width: fit-content;
+}
+
+.nav-menu li a{
+	font-size: 20px;
+	transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover{
+	color: lightgray;
+	border-bottom: 1px solid white;
+}
+
+section{
+	/* margin-top: 50px; */
+	width: 100%;
+	height: auto;
+	min-height: 75vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#about{
+    height: auto;
+	min-height: 65vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	width: auto;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#about-arka{
+    font-size: 6em;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#about_div{
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#about_para{
+	color: white;
+	font-size: 1.5rem;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+}
+
+#image{
+	height: 12rem;
+	width: 12rem;
+	margin: auto;
+	/* margin-top: -15vh; */
+}
+
+#image img{
+	height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0px 0px 8px 8px rgba(230,196,196,0.2);
+}
+
+.horizontal-list{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.horizontal-list li{
+	display: inline-block;
+	margin: 8px 8px 0px 8px;
+}
+
+.horizontal-list li a{
+	color: white;
+	text-decoration: none;
+}
+
+.social-icons li a i{
+	padding: 10px;
+	font-size: 30px;
+	border-radius: 10%;
+}
+
+.social-icons li a i:hover{
+	border-bottom: 0px;
+	box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.2);
+	/* horizontal offset-> 0px
+	   vertical offset-> 0px
+	   blur-> 6px	
+	   spread-> 4px
+	   color-> ...*/
+}
+
+.member_img{
+    height: 200px;
+    width: 200px;
+}
+
+.card-box{
+    box-shadow: 0px 0px 15px 4px red;
+}
+
+/* .card-bg{
+    background-image: url("images/card/background/bg3.jpg");
+} */
+
+
+#map{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+ @media(max-width:1400px)
+{
+    .container{
+        margin-left: 5%;
+    }
+
+    /* .navbar .navbar-nav .nav-item:not(:last-child) .nav-link::after {
+        content:"";
+    } */
+
+    .nav-menu li a:hover{
+        color: lightgray;
+        border-bottom: 0px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        width: 100%;
+    }
+}
