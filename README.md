@@ -1,2 +1,2 @@
 # Arka_Frontend_1
-This is a preliminary wirefrane of ARKA website
+This is a preliminary wireframe of ARKA website
